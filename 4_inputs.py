@@ -3,6 +3,6 @@
 print("type your name: ")
 name = input()
 
-print("Your name is " + name + ". What is your name?")
+print("Hello " + name + "! Nice to meet you")
 
 print(type(name))
