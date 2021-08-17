@@ -24,7 +24,7 @@ while (len(list_of_numbers) < 5):
     
 print("Numbers in reverse order:")
 
-currentPosition = len(listOfNumbers)
+currentPosition = len(list_of_numbers)
 while (currentPosition > 0):
     currentPosition = currentPosition - 1
-    print(listOfNumbers[currentPosition])
+    print(list_of_numbers[currentPosition])
