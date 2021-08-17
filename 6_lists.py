@@ -20,3 +20,11 @@ while (len(list_of_numbers) < 5):
     print("Input number "+str(current_position)+":")
     current_position += 1
     list_of_numbers.append(input())
+
+    
+print("Numbers in reverse order:")
+
+currentPosition = len(listOfNumbers)
+while (currentPosition > 0):
+    currentPosition = currentPosition - 1
+    print(listOfNumbers[currentPosition])
